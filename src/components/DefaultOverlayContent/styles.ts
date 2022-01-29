@@ -10,7 +10,7 @@ export const Container = styled.div`
 export const Heading = styled.div`
   margin-top: 22vh;
   text-align: center;
-  filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 0.2rem 0.2rem rgba(0, 0, 0, 0.25));
 
   @media (min-width: 600px) {
     margin-top: 16.5vh;
@@ -19,15 +19,16 @@ export const Heading = styled.div`
   h1 {
     font-weight: 700;
     font-size: 4rem;
-    line-height: 4.2rem;
+    line-height: 4.8rem;
     color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 1rem;
   }
 
   h2 {
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 1.6rem;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.9);
   }
 `;
 
@@ -41,7 +42,7 @@ export const Buttons = styled.div`
   > button {
     background: #eb74ac;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.9;
 
     font-size: 12px;
     font-weight: 500;
@@ -58,7 +59,7 @@ export const Buttons = styled.div`
     &.white {
       background: #fff;
       color: #1a1720;
-      opacity: 0.65;
+      opacity: 0.85;
     }
 
     & + button {
@@ -67,7 +68,7 @@ export const Buttons = styled.div`
 
     &:hover {
       opacity: 1;
-      filter: brightness(1.1);
+      filter: brightness(1.25);
     }
   }
 

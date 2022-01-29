@@ -61,9 +61,12 @@ export const Footer = styled.footer`
       a {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.75);
+        padding-bottom: 0.5rem;
+        transition: all 0.3s;
 
         &:hover {
           color: #fff;
+          border-bottom: 2px solid #eb74ac;
         }
       }
     }

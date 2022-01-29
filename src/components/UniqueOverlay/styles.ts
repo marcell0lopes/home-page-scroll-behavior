@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const Header = styled.header`
   position: fixed;
-  top: 0;
+  top: 3rem;
   left: 0;
   right: 0;
 
@@ -20,6 +20,10 @@ export const Header = styled.header`
   justify-content: space-between;
   padding: 0 20px;
   min-height: 52px;
+
+  @media (min-width: 600px) {
+    top: 0;
+  }
 `;
 
 export const Logo = styled(LogoSVG)`
@@ -43,36 +47,31 @@ export const Footer = styled.footer`
 
   ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
 
     li {
       list-style: none;
       font-size: 14px;
 
-      & + li {
-        margin: 10px 0 0;
-      }
-
       a {
         text-decoration: none;
-        color: #393c41;
+        color: rgba(255, 255, 255, 0.75);
 
         &:hover {
-          color: #000;
+          color: #fff;
         }
       }
     }
   }
 
-  margin-bottom: 30px;
-
   @media (min-width: 600px) {
-    margin-bottom: 38px;
-
     ul {
-      flex-direction: row;
+      gap: 3rem;
+      margin-bottom: 38px;
 
       li + li {
         margin: 0 0 0 30px;

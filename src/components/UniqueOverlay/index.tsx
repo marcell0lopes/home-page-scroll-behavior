@@ -12,15 +12,17 @@ function UniqueOverlay() {
         <ul>
           <li>
             {' '}
-            <a href="#">UI Clone</a>
+            <a href="https://twitter.com/marcell0lopes">by Marcello Lopes:</a>
           </li>
           <li>
             {' '}
-            <a href="#">made with love</a>
+            <a href="https://www.linkedin.com/in/marcellolopes30/">
+              My Linkedin
+            </a>
           </li>
           <li>
             {' '}
-            <a href="#">by Marcello Lopes</a>
+            <a href="https://github.com/marcell0lopes">My Github</a>
           </li>
         </ul>
       </Footer>

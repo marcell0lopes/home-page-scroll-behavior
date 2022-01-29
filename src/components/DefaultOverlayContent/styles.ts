@@ -8,8 +8,9 @@ export const Container = styled.div`
 `;
 
 export const Heading = styled.div`
-  margin-top: 22vh;
+  margin: 22vh 2rem 0 2rem;
   text-align: center;
+
   filter: drop-shadow(0 0.2rem 0.2rem rgba(0, 0, 0, 0.25));
 
   @media (min-width: 600px) {

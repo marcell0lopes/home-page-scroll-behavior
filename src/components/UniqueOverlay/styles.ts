@@ -20,7 +20,8 @@ export const Header = styled.header`
   justify-content: space-between;
   padding: 0 20px;
   min-height: 52px;
-
+  max-width: 1120px;
+  margin: 0.5rem auto;
   @media (min-width: 600px) {
     top: 0;
   }

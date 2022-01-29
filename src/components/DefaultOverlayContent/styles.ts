@@ -10,22 +10,23 @@ export const Container = styled.div`
 export const Heading = styled.div`
   margin-top: 22vh;
   text-align: center;
+  filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.25));
 
   @media (min-width: 600px) {
     margin-top: 16.5vh;
   }
 
   h1 {
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 49px;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.2rem;
     color: rgba(255, 255, 255, 0.95);
   }
 
   h2 {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
     color: rgba(255, 255, 255, 0.85);
   }
 `;
@@ -65,7 +66,7 @@ export const Buttons = styled.div`
     }
 
     &:hover {
-      opacity: 0.95;
+      opacity: 1;
       filter: brightness(1.1);
     }
   }

@@ -17,7 +17,7 @@ export const Container = styled.main`
   .colored:nth-child(2) {
     background: #dfffd9;
     background-image: url(${teclado1Img});
-    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +25,7 @@ export const Container = styled.main`
   .colored:nth-child(3) {
     background: #cdfeca;
     background-image: url(${teclado2Img});
-    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@ export const Container = styled.main`
   .colored:nth-child(4) {
     background: #bbfebb;
     background-image: url(${teclado3Img});
-    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ export const Container = styled.main`
   .colored:nth-child(5) {
     background: #a9fdac;
     background-image: url(${teclado4Img});
-    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +49,7 @@ export const Container = styled.main`
   .colored:nth-child(6) {
     background: #90f29c;
     background-image: url(${teclado5Img});
-    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +57,7 @@ export const Container = styled.main`
   .colored:nth-child(7) {
     background: #77e68c;
     background-image: url(${teclado6Img});
-    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@ export const Container = styled.main`
   .colored:nth-child(8) {
     background: #5fb870;
     background-image: url(${teclado7Img});
-    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
